@@ -6,7 +6,13 @@ git config --global core.editor /usr/bin/nano
 ```
 Update and Upgrade
 ```shell
-sudo pacman -Syyu
+sudo pacman -Syyu && sudo pacman -Syu base-devel git gnupg gperf ccache lzip zlib curl python3 python-pip unzip openjdk11-jdk wget flex bison make clang lld llvm ncurses ninja libxml2 libxslt libxcrypt-compat repo perl dtc bc python-yaml
+mkdir -p ~/.bin
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
+chmod a+x ~/.bin/repo
+export PATH=~/.bin:$PATH
+echo 'export PATH=~/bin:$PATH' >> ~/.zshrc
+source ~/.zshrc
 ```
 Install git
 ```shell
@@ -33,14 +39,16 @@ cat ~/.ssh/id_ed25519.pub
 ```
 Setup zsh terminal
 ```shell
+curl -o .zsh_history https://raw.githubusercontent.com/guckesh/guckesh/refs/heads/master/profile/.zsh_history
 sudo pacman -S zsh -y
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+```shell
 sudo nano /etc/passwd
 ```
 Install adb and fastboot
 ```shell
-sudo pacman -S android-tools-adb android-tools-fastboot -y
+sudo pacman -S adb fastboot
 ```
 Install packages required for compiling ROMs
 ```shell
