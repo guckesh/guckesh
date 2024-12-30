@@ -56,7 +56,7 @@ git clone --depth 1 git@github.com:akhilnarang/scripts scripts && cd scripts && 
 ```
 Install python dependencies
 ```shell
-sudo pacman -S-get 2to3 dh-python python-is-python3 python3 python3.10 python3-pip apt python3-pylint-common -y
+python3 -m pip install --user numpy
 ```
 Setup ccache
 ```shell
