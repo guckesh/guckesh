@@ -141,6 +141,6 @@ python3 -m venv path/to/venv
 source path/to/venv/bin/activate
 ```
 ```shell
-source build/envsetup.sh && breakfast dm3q && make installclean && brunch dm3q
+curl -o kernel-build.sh https://gist.githubusercontent.com/guckesh/f945625970d7146fd5123bac5a8139ec/raw/aaa22ea530e0eed996fd8fd04747c00abb86138c/kernel-build.sh
 ```
 [![TG chat](https://img.shields.io/badge/Support-Telegram-%23e52c5f.svg?style=for-the-badge&logo=telegram&&labelColor=121217991103595)](https://t.me/guckesh)
