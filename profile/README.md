@@ -144,3 +144,6 @@ source path/to/venv/bin/activate
 curl -o kernel-build.sh https://gist.githubusercontent.com/guckesh/f945625970d7146fd5123bac5a8139ec/raw/aaa22ea530e0eed996fd8fd04747c00abb86138c/kernel-build.sh
 ```
 [![TG chat](https://img.shields.io/badge/Support-Telegram-%23e52c5f.svg?style=for-the-badge&logo=telegram&&labelColor=121217991103595)](https://t.me/guckesh)
+```helll
+export PYTHONPATH=/home/mezaque/android15/voltage/tools/extract-utils:$PYTHONPATH && python3 /home/mezaque/android15/voltage/device/samsung/dm3q/extract-files.py /home/mezaque/Documentos/dumpyara/working/S918BXXS7CXL2
+```
