@@ -145,5 +145,5 @@ curl -o kernel-build.sh https://gist.githubusercontent.com/guckesh/f945625970d71
 ```
 [![TG chat](https://img.shields.io/badge/Support-Telegram-%23e52c5f.svg?style=for-the-badge&logo=telegram&&labelColor=121217991103595)](https://t.me/guckesh)
 ```helll
-export PYTHONPATH=/home/mezaque/android15/voltage/tools/extract-utils:$PYTHONPATH && python3 /home/mezaque/android15/voltage/device/samsung/dm3q/extract-files.py /home/mezaque/Documentos/dumpyara/working/S918BXXS7CXL2
+export PYTHONPATH=/home/mezaque/VoltageOS/tools/extract-utils:$PYTHONPATH && python3 /home/mezaque/VoltageOS/device/samsung/dm1q/extract-files.py /home/mezaque/Documentos/dumpyara/working/S911BXXU8DYDA
 ```
